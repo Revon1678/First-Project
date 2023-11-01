@@ -1,0 +1,107 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+html {
+    font-size: 1.1em;
+}
+header {
+    background-color: bisque;
+    text-align: center;
+}
+main {
+    background-color: rgb(168, 187, 187);
+}
+footer {
+    background-color: rgb(241, 255, 203);
+    padding: 10px 50px;
+}
+
+#about {
+    background-color: rgb(209, 207, 210);
+    padding: 10px 50px;
+    text-align: center;
+}
+#articles {
+    background-color: rgb(0, 157, 255);
+    padding: 10px 50px;
+}
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+h1 {
+    text-transform: uppercase;
+    color:rgb(12, 12, 8);
+    font-size: 2rem;
+    font-style: italic;
+}
+h2 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(0, 89, 255);
+}
+
+ul {
+    list-style: none;
+}
+a { 
+    text-decoration: none;
+   }
+   a:hover { 
+    text-decoration: underline;
+    }
+   tr:first-child{
+     background-color: rgb(255, 255, 255);
+   }
+   p:lang(en){
+    font-size:16pt;
+}
+h3:before{
+    content: "Важно!";
+    border:5 px;
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+}
+h3{
+    text-align: center;
+}
+p:first-line{
+    letter-spacing: 5px;
+}
+p:lang(en){
+    text-decoration: underline;
+}
+p:lang(ru){
+    font-style: normal;
+}
+nav a{
+    font-size: 1.5em;
+   }
+   #main_menu h2{
+    font-weight: normal;
+   }
+   .content img{
+    width:500px;
+    float: left;
+   }
+#main_menu h2{
+ font-weight: normal;
+}
+content img footer{
+    width:500px;
+    float: left;
+   }
+   div {
+    width: 100px; height: 100px; /* Размеры */
+    background: #fc0; /* Цвет фона */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    display: inline-block;
+   }
+   div:hover {
+    outline: 2px solid #000; /* Чёрная рамка */
+   }
